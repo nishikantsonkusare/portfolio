@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a56bd083.css",
+    "main.js": "/portfolio/static/js/main.68bd89c9.js",
+    "static/media/foodapp.png": "/portfolio/static/media/foodapp.3f1113d64e74e900d495.png",
+    "static/media/Ecart.PNG": "/portfolio/static/media/Ecart.6253538be7b80ef9e57d.PNG",
+    "static/media/django.png": "/portfolio/static/media/django.230012ee0e63b4b1df99.png",
+    "static/media/hms.PNG": "/portfolio/static/media/hms.378e657bb050294412bd.PNG",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.b8f42e3c7efb3832770a.png",
+    "static/media/blog.PNG": "/portfolio/static/media/blog.acc1f273981d69db1d86.PNG",
+    "static/media/react-js.jpg": "/portfolio/static/media/react-js.4c2d00e4ab12331a4ce2.jpg",
+    "static/media/expanses.png": "/portfolio/static/media/expanses.081b8171a5c8aa0a6a83.png",
+    "static/media/mui.png": "/portfolio/static/media/mui.92e515841ed9c67c295c.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.b91e68c277347c9b143b.png",
+    "static/media/javaScript.jpg": "/portfolio/static/media/javaScript.d37684aea3d32640b359.jpg",
+    "static/media/css.png": "/portfolio/static/media/css.83d7611c2fbdb747d642.png",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/portfolio/index.html",
+    "main.a56bd083.css.map": "/portfolio/static/css/main.a56bd083.css.map",
+    "main.68bd89c9.js.map": "/portfolio/static/js/main.68bd89c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a56bd083.css",
+    "static/js/main.68bd89c9.js"
+  ]
+}
