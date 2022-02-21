@@ -9,6 +9,7 @@ import javaScriptImage from "../assets/img/javaScript.jpg";
 import djangoImage from "../assets/img/django.png";
 import cssImage from "../assets/img/css.png";
 import bootstrapImage from "../assets/img/bootstrap.png";
+import "../assets/css/main.css"
 
 const data = [
     {
@@ -44,16 +45,18 @@ const data = [
 ]
 
 export const Skills = () => {
-
+    // px: 4, pt: "8vh"
   return (
-        <Box sx={{ px: 4 }}>
-            <Typography color="white" align="center" fontSize="3em" fontWeight="bold" py={3}>Skills</Typography>
+    <Box className="backgroundSkill" sx={{ height: "100vh"}}>
+        <Box sx={{ px: 4,pt: "8vh" }}>
+            <Typography color="black" align="center" fontSize="3em" fontWeight="bold" py={3}>Skills</Typography>
             <CarouselCard>
                 {
                     data.map( (item, index) => <SkillsItemCard key={index} title={item.title} description={item.description} image={item.image} />)
                 }
             </CarouselCard>
         </Box>
+    </Box>
   )
 };
 

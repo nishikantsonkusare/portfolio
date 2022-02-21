@@ -7,6 +7,7 @@ import hmsImage from "../assets/img/hms.PNG";
 import blogImage from "../assets/img/blog.PNG";
 import expansesImage from "../assets/img/expanses.png";
 import foodImage from "../assets/img/foodapp.png";
+import "../assets/css/main.css"
 
 const data = [
     {
@@ -43,15 +44,17 @@ const data = [
 
 const MyWork = () => {
   return(
-      <Box sx={{ px: 4 }}>
-            <Typography align='center' fontSize="3em" color="white" fontWeight="bold" py={2} mb={4}>
-                My Work
-            </Typography>
-            <CarouselCard>
-                {
-                    data.map( (item, index) => <MyWorkItemCard key={index} title={item.title} description={item.description} image={item.image} gitLink={item.gitLink} />)
-                }
-            </CarouselCard>
+      <Box className='backgroundWork' sx={{ height: "100vh"}}>
+        <Box sx={{ px: 4, pt: "8vh" }}>
+                <Typography align='center' fontSize="3em" color="black" fontWeight="bold" py={2} mb={4}>
+                    My Work
+                </Typography>
+                <CarouselCard>
+                    {
+                        data.map( (item, index) => <MyWorkItemCard key={index} title={item.title} description={item.description} image={item.image} gitLink={item.gitLink} />)
+                    }
+                </CarouselCard>
+        </Box>
       </Box>
     );
 };

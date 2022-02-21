@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://nishikantsonkusare.github.io/#Home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +20,7 @@
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.25.3",
     "react-multi-carousel": "^2.6.5",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-tsparticles": "^1.39.1",
     "styled-components": "^5.3.3",
@@ -28,6 +30,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

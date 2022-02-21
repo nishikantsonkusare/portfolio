@@ -27,7 +27,7 @@ const MyWorkItemCard = (props) => {
     }
 
   return(
-        <Card sx={{ position: "relative", height: "60vh", mx: 2 }}>
+        <Card sx={{ position: "relative", height: "60vh", mx: 2, mb: 1 }}>
             <Box sx={{ p: 1 }}>
                 <CardMedia
                     component="img"
